@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66bfbf;
+  margin: 0 auto 50px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 0 auto 50px auto;
+}
+
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color: #66bfbf;
+border-width: 5px;
+width: 5%;
+margin: 100px auto;
+}
+
+p{
+  color: #40514E;
+}
+
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+}
+
+a:hover{
+  color: white;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 150px;
+  padding-top: 80px;
+}
+
+.razvan-img{
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+}
+
+.web-gif{
+  border-radius: 100%;
+  width: 35%;
+  height: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.engineer-gif{
+  border-radius: 100%;
+  width: 32%;
+  height: 32%;
+  float: left;
+  margin-right: 30px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.credits{
+  color: #eaf6f6;
+}
+
+.contact-me{
+  width: 500px;
+  margin: 0 auto;
+  line-height: 2;
+}
+.bio{
+  width: 500px;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.btn {
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+background: #66bfbf;
+padding: 10px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+box-shadow: 0 4px 4px rgba(0,0,0,0.1), 0 -100px 0 rgba(0,0,0,0) inset;
+}
